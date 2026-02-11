@@ -129,7 +129,8 @@ Return your analysis as a JSON object:
                 }
             ],
             "response_format": {"type": "json_object"},
-            "max_tokens": 800
+            "max_tokens": 800,
+            "temperature": 0
         }
         
         print(f"Requesting analysis from OpenAI...")
